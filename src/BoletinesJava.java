@@ -3,24 +3,30 @@ public class BoletinesJava {
     public static void caso1(){
         System.out.println("Dame un Double: ");
         Scanner numerito= new Scanner(System.in);
-        double numeritote= Double.parseDouble(String.valueOf(numerito.nextInt()));
-        double d=numeritote;
+        double d= Double.parseDouble(String.valueOf(numerito.nextInt()));
         int i=(int)d;
         System.out.println(i);
     }
     public static void caso2(){
-        System.out.println("Dame un Double: ");
+        System.out.println("Dame un Int: ");
         Scanner numerito= new Scanner(System.in);
-        double numeritote= Double.parseDouble(String.valueOf(numerito.nextInt()));
-        double d=numeritote;
-        int i=(int)d;
+        int d= Integer.parseInt(String.valueOf(numerito.nextInt()));
+        double i=(double)d;
         System.out.println(i);
     }
     public static void caso3(){
-
+        System.out.println("Dame un Int: ");
+        Scanner numerito= new Scanner(System.in);
+        int d= Integer.parseInt(String.valueOf(numerito.nextInt()));
+        short i=(short) d;
+        System.out.println(i);
     }
     public static void caso4(){
-
+        System.out.println("Dame un Short: ");
+        Scanner numerito= new Scanner(System.in);
+        short d= Short.parseShort(String.valueOf(numerito.nextInt()));
+        int i=(int) d;
+        System.out.println(i);
     }
 
     public static void cambiodetipos(){
@@ -33,10 +39,10 @@ public class BoletinesJava {
         Scanner cositas= new Scanner(System.in);
         String cosotas = String.valueOf(cositas.nextInt());
         switch (cosotas){
-            case "1"->{caso1();}
-            case "2"->{caso2();}
-            case "3"->{caso3();}
-            case "4"->{caso4();}
+            case "1"->caso1();
+            case "2"->caso2();
+            case "3"->caso3();
+            case "4"->caso4();
 
         }
     }

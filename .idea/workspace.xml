@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="SWITCH READY">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Cambios ojito">
       <change beforePath="$PROJECT_DIR$/src/BoletinesJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoletinesJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664955200528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambios ojito">
+      <created>1664956669304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664956669304</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +113,7 @@
     <MESSAGE value="Maineamos" />
     <MESSAGE value="Preparamos" />
     <MESSAGE value="SWITCH READY" />
-    <option name="LAST_COMMIT_MESSAGE" value="SWITCH READY" />
+    <MESSAGE value="Cambios ojito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios ojito" />
   </component>
 </project>
