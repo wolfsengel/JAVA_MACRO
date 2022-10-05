@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class BoletinesJava {
+public class BoletinesJava {
+    public void main(){
+
+    }
 }
