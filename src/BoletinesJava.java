@@ -29,6 +29,12 @@ public class BoletinesJava {
         System.out.println(i);
     }
 
+    public static void test(){
+        System.out.println("DIME UN NUMERO");
+        Scanner uwu=new Scanner(System.in);
+        System.out.println(uwu);
+    }
+
     public static void cambiodetipos(){
         System.out.println("""
                 1. Cambiar de double a int
@@ -57,6 +63,7 @@ public class BoletinesJava {
             case "1" -> System.out.println("Hola");
             case "2" -> System.out.println("UWU");
             case "3" -> cambiodetipos();
+            case "4" -> test();
             default -> throw new IllegalStateException("Unexpected value: " + numerito);
         }
     }
