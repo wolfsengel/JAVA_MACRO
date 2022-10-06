@@ -8,11 +8,11 @@ public class BoletinesJava {
         System.out.println(i);
     }
     public static void caso2(){
-        System.out.println("Dame un Int: ");
-        Scanner numerito= new Scanner(System.in);
-        int d= Integer.parseInt(String.valueOf(numerito.nextInt()));
-        double i=(double)d;
-        System.out.println(i);
+        //System.out.println("Dame un Int: ");
+        //Scanner numerito= new Scanner(System.in);
+        //int d= Integer.parseInt(String.valueOf(numerito.nextInt()));
+        //double i=(double)d;
+        //System.out.println(i);
     }
     public static void caso3(){
         System.out.println("Dame un Int: ");
@@ -22,17 +22,24 @@ public class BoletinesJava {
         System.out.println(i);
     }
     public static void caso4(){
-        System.out.println("Dame un Short: ");
-        Scanner numerito= new Scanner(System.in);
-        short d= Short.parseShort(String.valueOf(numerito.nextInt()));
-        int i=(int) d;
-        System.out.println(i);
+        //System.out.println("Dame un Short: ");
+        //Scanner numerito= new Scanner(System.in);
+        //short d= Short.parseShort(String.valueOf(numerito.nextInt()));
+       // int i=(int) d;
+        //System.out.println(i);
     }
+
 
     public static void test(){
         System.out.println("DIME UN NUMERO");
-        Scanner uwu=new Scanner(System.in);
-        System.out.println(uwu);
+        String cadena = new Scanner(System.in).nextLine();
+        System.out.println(cadena);
+    }
+    public static void testete(){
+        int i=5;
+        int j=3;
+        String pito = "Hola";
+        System.out.println(i+j+pito+i+j);
     }
 
     public static void cambiodetipos(){
@@ -63,7 +70,10 @@ public class BoletinesJava {
             case "1" -> System.out.println("Hola");
             case "2" -> System.out.println("UWU");
             case "3" -> cambiodetipos();
-            case "4" -> test();
+            case "4" -> {
+                testete() ;
+                test();
+            }
             default -> throw new IllegalStateException("Unexpected value: " + numerito);
         }
     }
