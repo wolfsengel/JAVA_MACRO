@@ -41,6 +41,13 @@ public class BoletinesJava {
         String pito = "Hola";
         System.out.println(i+j+pito+i+j);
     }
+    public static void testoste(){
+        System.out.println("Dime numerazo: ");
+        Scanner uwu=new Scanner(System.in);
+        int cadena= uwu.nextInt();
+        String pollo=cadena%2==0?  "es par" : "es impar";
+        System.out.println(pollo);
+    }
 
     public static void cambiodetipos(){
         System.out.println("""
@@ -70,10 +77,7 @@ public class BoletinesJava {
             case "1" -> System.out.println("Hola");
             case "2" -> System.out.println("UWU");
             case "3" -> cambiodetipos();
-            case "4" -> {
-                testete() ;
-                test();
-            }
+            case "4" -> testoste();
             default -> throw new IllegalStateException("Unexpected value: " + numerito);
         }
     }

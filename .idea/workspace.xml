@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="TODOS LOS CAMBIOS">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="TESTS">
+      <change afterPath="$PROJECT_DIR$/src/caso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/owo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BoletinesJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoletinesJava.java" afterDir="false" />
     </list>
@@ -45,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.owo">
     <configuration name="BoletinesJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinesJava" />
       <module name="JAVA_MACRO" />
@@ -53,6 +55,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="owo" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.owo" />
+      <item itemvalue="Application.BoletinesJava" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BoletinesJava" />
@@ -117,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665039778935</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TESTS">
+      <created>1665041676052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665041676052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +157,7 @@
     <MESSAGE value="SWITCH READY" />
     <MESSAGE value="Cambios ojito" />
     <MESSAGE value="TODOS LOS CAMBIOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODOS LOS CAMBIOS" />
+    <MESSAGE value="TESTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="TESTS" />
   </component>
 </project>
