@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="listas">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="ole">
+      <change afterPath="$PROJECT_DIR$/src/http/EchoHeaderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/owo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/owo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +47,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="http" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.owo">
     <configuration name="BoletinesJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinesJava" />
@@ -142,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665389738671</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ole">
+      <created>1665486704730</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665486704730</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +178,7 @@
     <MESSAGE value="TODOS LOS CAMBIOS" />
     <MESSAGE value="TESTS" />
     <MESSAGE value="listas" />
-    <option name="LAST_COMMIT_MESSAGE" value="listas" />
+    <MESSAGE value="ole" />
+    <option name="LAST_COMMIT_MESSAGE" value="ole" />
   </component>
 </project>
