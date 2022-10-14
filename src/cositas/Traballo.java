@@ -27,7 +27,7 @@ public class Traballo {
                 return i;
             }
         }
-        return null;
+       return 0;
     }
 
     public static Integer leftChild(int i){
@@ -46,12 +46,12 @@ public class Traballo {
         }
     }
 
-    public static boolean addChild(int i){
+    public static void addChild(int i){
         int pipo=whereisROOT();
         int popi=root();
         if (i<popi){
             if (tree.get(pipo-1)>0){
-                addChild(pipo-2)
+                addChild(pipo-2);
 
             }else{
                 addChild(pipo-1);
@@ -63,7 +63,6 @@ public class Traballo {
                 addChild(pipo+1);
             }
         }
-        return true;
     }
 
 
