@@ -5,6 +5,9 @@ public class Exercicios_e_Tests {
         int pasajeros;
         int deposito;
         int kpl;
+        int autonomy(){
+            return deposito*kpl;
+        }
     }
 
     public static void main(String[] args) {
@@ -13,7 +16,7 @@ public class Exercicios_e_Tests {
      golf.deposito=60;
      golf.pasajeros=5;
      golf.coche="Golf";
-     int autonomia=60/20;
-     System.out.println(golf.kpl+" "+golf.deposito+" "+golf.pasajeros+" "+ golf.coche+" "+autonomia);
+
+     System.out.print("Kpl: "+golf.kpl+", Deposito: "+golf.deposito+", Pasajeros: "+golf.pasajeros+", Coche: "+ golf.coche+", Autonomia: "+golf.autonomy());
     }
 }
