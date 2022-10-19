@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Campo de concentracion Actualizado">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Campo de concentracion Funcional">
       <change beforePath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666166053705</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Campo de concentracion Funcional">
+      <created>1666167240560</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666167240560</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +297,7 @@
     <MESSAGE value="ole" />
     <MESSAGE value="ole1" />
     <MESSAGE value="Campo de concentracion Actualizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Campo de concentracion Actualizado" />
+    <MESSAGE value="Campo de concentracion Funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Campo de concentracion Funcional" />
   </component>
 </project>

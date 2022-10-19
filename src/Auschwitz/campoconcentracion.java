@@ -44,12 +44,18 @@ public class campoconcentracion {
                 int pitodos= pito.nextInt();
                 for (int i=0;i<declaraciones.Internos.size();i++){
                     if (declaraciones.Internos.get(i).numID==pitodos){
-                        declaraciones.Internos.set(i, null);
+                        declaraciones.Internos.remove(i);
                         System.out.println("Eliminado de manera segura!");
                     }
                 }
             }
             case "3" -> {
+                for (int i=0;i<declaraciones.Internos.size();i++){
+                    System.out.println("Nombre: "+declaraciones.Internos.get(i).nombre);
+                    System.out.println("ID: "+declaraciones.Internos.get(i).numID);
+                    System.out.println("Anos Condena: "+declaraciones.Internos.get(i).anoscondena);
+                    System.out.println("Delitos: "+declaraciones.Internos.get(i).delitos);
+                }
             }
             case "4" -> {
                 return;
