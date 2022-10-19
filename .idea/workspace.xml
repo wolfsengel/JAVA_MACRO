@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="SOLUCION PROBLEMA BORRADO">
+      <change afterPath="$PROJECT_DIR$/src/Casino/CasinoDinerito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Casino/Declaraciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TESTEOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.campoconcentracion">
+  <component name="RunManager" selected="Application.CasinoDinerito">
     <configuration name="BoletinesJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinesJava" />
       <module name="JAVA_MACRO" />
@@ -60,8 +66,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicios_e_Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicios_e_Tests" />
+    <configuration name="CasinoDinerito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Casino.CasinoDinerito" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTEOS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TESTEOS" />
       <module name="JAVA_MACRO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,15 +115,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.CasinoDinerito" />
+      <item itemvalue="Application.TESTEOS" />
       <item itemvalue="Application.campoconcentracion" />
-      <item itemvalue="Application.Exercicios_e_Tests" />
       <item itemvalue="Application.Traballo" />
       <item itemvalue="Application.BoletinesJava" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CasinoDinerito" />
+        <item itemvalue="Application.TESTEOS" />
         <item itemvalue="Application.campoconcentracion" />
-        <item itemvalue="Application.Exercicios_e_Tests" />
         <item itemvalue="Application.Traballo" />
         <item itemvalue="Application.BoletinesJava" />
       </list>

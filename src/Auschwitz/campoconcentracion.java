@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class campoconcentracion {
+
     public static void main(String[] args) {
         while (true){
         System.out.println("\n¡Bienvenido al sistema de presos del Campo De Concentracion de Auschwitz!");
@@ -12,9 +13,10 @@ public class campoconcentracion {
         System.out.println("\n 1. Registrar interno\n 2. Eliminar interno \n 3. Ver internos \n 4. Salir");
         Scanner uwu = new Scanner(System.in);
         String owo = uwu.nextLine();
+        ArrayList<String> delitinos = new ArrayList<>();
         switch (owo) {
             case "1" -> {
-                ArrayList delitinos = new ArrayList();
+
                 System.out.println("Maravillosa eleccion!\n Digame el nombre del afortunado: ");
                 Scanner uwu1 = new Scanner(System.in);
                 String owo1 = uwu1.nextLine();
