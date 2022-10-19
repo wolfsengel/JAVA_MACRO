@@ -20,3 +20,4 @@ public class Exercicios_e_Tests {
      System.out.print("Kpl: "+golf.kpl+", Deposito: "+golf.deposito+", Pasajeros: "+golf.pasajeros+", Coche: "+ golf.coche+", Autonomia: "+golf.autonomy());
     }
 }
+

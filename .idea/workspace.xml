@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="ole">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="ole1">
+      <change afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cositas/Traballo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cositas/Traballo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/owo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/owo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicios_e_Tests">
+  <component name="RunManager" selected="Application.campoconcentracion">
     <configuration name="BoletinesJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinesJava" />
       <module name="JAVA_MACRO" />
@@ -81,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="campoconcentracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Auschwitz.campoconcentracion" />
+      <module name="JAVA_MACRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Auschwitz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="owo" />
       <module name="JAVA_MACRO" />
@@ -90,12 +103,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.campoconcentracion" />
       <item itemvalue="Application.Exercicios_e_Tests" />
       <item itemvalue="Application.Traballo" />
       <item itemvalue="Application.BoletinesJava" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.campoconcentracion" />
         <item itemvalue="Application.Exercicios_e_Tests" />
         <item itemvalue="Application.Traballo" />
         <item itemvalue="Application.BoletinesJava" />
@@ -223,7 +238,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666095822011</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ole">
+      <created>1666163435814</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666163435814</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ole1">
+      <created>1666163484954</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666163484954</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ole1">
+      <created>1666163706233</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666163706233</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +282,7 @@
     <MESSAGE value="TESTS" />
     <MESSAGE value="listas" />
     <MESSAGE value="ole" />
-    <option name="LAST_COMMIT_MESSAGE" value="ole" />
+    <MESSAGE value="ole1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ole1" />
   </component>
 </project>
