@@ -3,7 +3,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class owo {
-
     public static void main(String[]args){
         List<caso> lista=new ArrayList<>();
         System.out.println("Dime tu nombre: ");
