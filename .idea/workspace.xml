@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Campo de concentracion Funcional">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="SOLUCION PROBLEMA BORRADO">
       <change beforePath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666167240560</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="SOLUCION PROBLEMA BORRADO">
+      <created>1666167718536</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666167718536</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +305,7 @@
     <MESSAGE value="ole1" />
     <MESSAGE value="Campo de concentracion Actualizado" />
     <MESSAGE value="Campo de concentracion Funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Campo de concentracion Funcional" />
+    <MESSAGE value="SOLUCION PROBLEMA BORRADO" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOLUCION PROBLEMA BORRADO" />
   </component>
 </project>
