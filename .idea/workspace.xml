@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="ole1">
-      <change afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Campo de concentracion Actualizado">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="http" />
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666163706233</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Campo de concentracion Actualizado">
+      <created>1666166053705</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666166053705</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +291,7 @@
     <MESSAGE value="listas" />
     <MESSAGE value="ole" />
     <MESSAGE value="ole1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ole1" />
+    <MESSAGE value="Campo de concentracion Actualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Campo de concentracion Actualizado" />
   </component>
 </project>

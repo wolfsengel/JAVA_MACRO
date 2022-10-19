@@ -9,9 +9,10 @@ import java.util.Scanner;
 
 public class campoconcentracion {
     public static void main(String[] args) {
-        System.out.println("¡Bienvenido al sistema de presos del Campo De Concentracion de Auschwitz!");
+        while (true){
+        System.out.println("\n¡Bienvenido al sistema de presos del Campo De Concentracion de Auschwitz!");
         System.out.println("Por favor indica que accion quieres realizar: ");
-        System.out.println("1. Registrar interno\n 2. Eliminar interno \n 3. Ver internos \n 4. Salir");
+        System.out.println("\n 1. Registrar interno\n 2. Eliminar interno \n 3. Ver internos \n 4. Salir");
         Scanner uwu = new Scanner(System.in);
         String owo = uwu.nextLine();
         switch (owo) {
@@ -38,12 +39,25 @@ public class campoconcentracion {
                 declaraciones.register(owo1,owo2,owo3,delitinos);
             }
             case "2" -> {
+                System.out.println("Ha decidido eliminar a un interno!\nIndique el ID del susodicho: ");
+                Scanner pito=new Scanner(System.in);
+                int pitodos= pito.nextInt();
+                for (int i=0;i<declaraciones.Internos.size();i++){
+                    if (declaraciones.Internos.get(i).numID==pitodos){
+                        declaraciones.Internos.set(i, null);
+                        System.out.println("Eliminado de manera segura!");
+                    }
+                }
             }
             case "3" -> {
             }
             case "4" -> {
+                return;
             }
         }
+
     }
+
+}
 }
 
