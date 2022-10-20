@@ -27,13 +27,14 @@ public class CasinoDinerito {
            Scanner selec = new Scanner(System.in);
            String selecc= selec.nextLine();
            switch (selecc){
-               case "1"->ruleta(persona1.dinero);
+               case "1"->persona1.dinero=ruleta(persona1.dinero);
                case "2"->{}
-               case "3"->jackblack(persona1.dinero);
+               case "3"->persona1.dinero= jackblack(persona1.dinero);
                case "4"-> {
                    System.out.println("VUELVE PRONTO!");
                    return;}
            }
+           System.out.println("Dispone usted de: "+persona1.dinero);
        }
 
 

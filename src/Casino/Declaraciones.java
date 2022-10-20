@@ -43,7 +43,7 @@ public class Declaraciones {
         else return "negro";
     }
 
-    public static void ruleta(int dineroactualizado){
+    public static int ruleta(int dineroactualizado){
         System.out.println("Muy buena eleccion \n Selecciona cuanto quieres apostar: ");
         Scanner dinero = new Scanner(System.in);
         int apuesta = dinero.nextInt();
@@ -78,10 +78,10 @@ public class Declaraciones {
             System.out.println("En realidad era el "+numero+" "+color);
         }
         System.out.println("Tu saldo es de: "+dineroactualizado);
-
+return dineroactualizado;
     }
 
-    public static void jackblack(int dineroactualizado){
+    public static int jackblack(int dineroactualizado){
         System.out.println("Muy buena eleccion \n Selecciona cuanto quieres apostar: ");
         Scanner dinero = new Scanner(System.in);
         int apuesta = dinero.nextInt();
@@ -144,6 +144,7 @@ public class Declaraciones {
                     }
                 }
             }
+            return dineroactualizado;
 
     }
 
