@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Arreglado bug dinero infinito">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Arreglado bug croupier invencible">
       <change beforePath="$PROJECT_DIR$/src/Casino/Declaraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casino/Declaraciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666255196617</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Arreglado bug croupier invencible">
+      <created>1666255511976</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666255511976</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +338,7 @@
     <MESSAGE value="SOLUCION PROBLEMA BORRADO" />
     <MESSAGE value="Blackjack terminado!!!!!!111!11" />
     <MESSAGE value="Arreglado bug dinero infinito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglado bug dinero infinito" />
+    <MESSAGE value="Arreglado bug croupier invencible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglado bug croupier invencible" />
   </component>
 </project>
