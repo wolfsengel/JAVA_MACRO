@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="SOLUCION PROBLEMA BORRADO">
-      <change afterPath="$PROJECT_DIR$/src/Casino/CasinoDinerito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Casino/Declaraciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TESTEOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/campoconcentracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auschwitz/declaraciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicios_e_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casino/CasinoDinerito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casino/CasinoDinerito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casino/Declaraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casino/Declaraciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

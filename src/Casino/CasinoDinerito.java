@@ -28,8 +28,8 @@ public class CasinoDinerito {
            String selecc= selec.nextLine();
            switch (selecc){
                case "1"->ruleta(persona1.dinero);
-               case "2"->jackblack(persona1.dinero);
-               case "3"->{}
+               case "2"->{}
+               case "3"->jackblack(persona1.dinero);
                case "4"-> {
                    System.out.println("VUELVE PRONTO!");
                    return;}
