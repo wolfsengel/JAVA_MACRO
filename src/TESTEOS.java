@@ -1,7 +1,8 @@
 public class TESTEOS {
     public static void main(String[] args) {
-        int i=0;
-        while( i<500){int uwu= (int) (Math.random() * 2) +1;
-        System.out.println(uwu);i++;}
+        for (int i=1;i<5;i++){
+            String uwu="mesa"+i;
+            System.out.println(uwu);
+        }
     }
 }

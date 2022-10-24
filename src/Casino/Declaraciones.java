@@ -150,4 +150,39 @@ return dineroactualizado;
 
     }
 
+
+    public static int poker(int dineroactualizado){
+        System.out.println("Muy buena eleccion \n Selecciona cuanto quieres apostar: ");
+        Scanner dinero = new Scanner(System.in);
+        int apuesta = dinero.nextInt();
+        System.out.println("Buena cantidad, ojo!");
+        System.out.println("Procedemos a repartir las cartas!");
+        while (true){
+
+            carta tuya = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta tuya2=new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            System.out.println("Dispones de: "+tuya.colorino+" "+tuya.palo+" "+tuya.numerino);
+            System.out.println("y tambien dispones de: "+tuya2.colorino+" "+tuya2.palo+" "+tuya2.numerino);
+
+            System.out.println("Repartimos las cartas sobre la mesa: ");
+            carta mesa1 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta mesa2 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta mesa3 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta mesa4 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta mesa5 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            ArrayList<carta> mesota= new ArrayList<carta>();
+            mesota.add(mesa1);
+            mesota.add(mesa2);
+            mesota.add(mesa3);
+            mesota.add(mesa4);
+            mesota.add(mesa5);
+            for (Declaraciones.carta carta : mesota) {
+                System.out.println(carta.numerino + " de " + carta.palo + " " + carta.colorino + " \n");
+            }
+
+            break;
+        }
+        return dineroactualizado;
+    }
+
 }

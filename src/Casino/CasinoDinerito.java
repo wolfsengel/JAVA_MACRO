@@ -28,7 +28,7 @@ public class CasinoDinerito {
            String selecc= selec.nextLine();
            switch (selecc){
                case "1"->persona1.dinero=ruleta(persona1.dinero);
-               case "2"->{}
+               case "2"->persona1.dinero=poker(persona1.dinero);
                case "3"->persona1.dinero= jackblack(persona1.dinero);
                case "4"-> {
                    System.out.println("VUELVE PRONTO!");
