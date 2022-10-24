@@ -128,20 +128,18 @@ return dineroactualizado;
                     Scanner aaa=new Scanner(System.in);
                     String aaaa=aaa.nextLine();
                     if (!Objects.equals(aaaa, "si")){
-                        int croupier= (int) (Math.random() * 30) +1;
+                        int croupier= (int) (Math.random() * (30-ojo))+ojo;
                         System.out.println("Tu tienes de suma: "+ojo+", y el croupier ha obtenido:"+croupier);
                         if (croupier>21){
                             System.out.println("GANASTE!!");
                             dineroactualizado=dineroactualizado+apuesta*2;
-                            System.out.println("Dispone de: "+dineroactualizado);
                         }else if(ojo<croupier){
                             System.out.println("Lo sentimos has perdido...");
                             dineroactualizado=dineroactualizado-apuesta;
-                            System.out.println("Dispone de: "+dineroactualizado);
                         }else{
                             System.out.println("GANASTE!!");
                             dineroactualizado=dineroactualizado+apuesta*2;
-                            System.out.println("Dispone de: "+dineroactualizado);
+
                         }
                         break;
                     }
