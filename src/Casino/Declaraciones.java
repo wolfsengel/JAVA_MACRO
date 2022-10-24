@@ -170,7 +170,7 @@ return dineroactualizado;
             carta mesa3 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
             carta mesa4 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
             carta mesa5 = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
-            ArrayList<carta> mesota= new ArrayList<carta>();
+            ArrayList<carta> mesota= new ArrayList<>();
             mesota.add(mesa1);
             mesota.add(mesa2);
             mesota.add(mesa3);
@@ -179,7 +179,6 @@ return dineroactualizado;
             for (Declaraciones.carta carta : mesota) {
                 System.out.println(carta.numerino + " de " + carta.palo + " " + carta.colorino + " \n");
             }
-
             break;
         }
         return dineroactualizado;
