@@ -179,6 +179,67 @@ return dineroactualizado;
             for (Declaraciones.carta carta : mesota) {
                 System.out.println(carta.numerino + " de " + carta.palo + " " + carta.colorino + " \n");
             }
+            ArrayList<carta> oponente=new ArrayList<>();
+            carta suya = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            carta suya2=new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
+            int puntuacion=0;
+            String que;
+            for (Declaraciones.carta carta : mesota) {
+                if (carta.numerino==tuya.numerino){
+                    puntuacion=puntuacion+1;
+                    if (carta.numerino==tuya2.numerino){
+                        puntuacion=puntuacion+2;
+                    }
+                }
+                if (carta.numerino==tuya2.numerino){
+                    puntuacion=puntuacion+1;
+                }
+                switch (puntuacion){
+                    case 1->{
+                        que="pareja";
+                        System.out.println("Tienes: "+que);
+                        System.out.println("De "+suya.numerino);
+                    }
+                    case 2->{que="pareja";
+                        System.out.println("Tienes: "+que);
+                        System.out.println("De "+suya2.numerino);
+                    }
+                    case 3->{}
+                    case 4->{que="trio";
+                        System.out.println("Tienes: "+que);
+                        System.out.println("De "+suya2.numerino);}
+                }
+            }
+//---------------------------------
+            int puntuacion2=0;
+            String que2;
+            for (Declaraciones.carta carta : mesota) {
+                if (carta.numerino==suya.numerino){
+                    puntuacion2=puntuacion2+1;
+                    if (carta.numerino==suya2.numerino){
+                        puntuacion2=puntuacion2+1;
+                    }
+                }
+                if (carta.numerino==suya2.numerino){
+                    puntuacion2=puntuacion2+2;
+                }
+                switch (puntuacion2){
+                    case 1->{
+                        que2="pareja";
+                        System.out.println("El oponente tiene: "+que2);
+                        System.out.println("De "+suya.numerino);
+                    }
+                    case 2->{que2="pareja";
+                        System.out.println("El oponente tiene: "+que2);
+                        System.out.println("De "+suya2.numerino);
+                    }
+                    case 3->{}
+                    case 4->{que2="trio";
+                        System.out.println("El oponente tiene: "+que2);
+                        System.out.println("De "+suya2.numerino);}
+                }
+            }
+
             break;
         }
         return dineroactualizado;
