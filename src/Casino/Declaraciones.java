@@ -239,6 +239,12 @@ return dineroactualizado;
                         System.out.println("De "+suya2.numerino);}
                 }
             }
+            if (puntuacion==1||puntuacion2==1){
+                if (tuya.numerino< suya.numerino){
+                    dineroactualizado=dineroactualizado+apuesta;
+                    return dineroactualizado;
+                }
+            }
 
             break;
         }
