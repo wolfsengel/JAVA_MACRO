@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Cuenta {
     private double saldo;
-    private String titular;
-    private String numeroCuenta;
+    private final String titular;
+    private final String numeroCuenta;
     Cuenta(String Telefono,String Nombre,double Saldo){
         this.numeroCuenta =Telefono;
         this.titular =Nombre;
