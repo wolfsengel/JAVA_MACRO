@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Facilito">
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/TimeLapse.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
+      <change afterPath="$PROJECT_DIR$/src/tareaproclase/punto2d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tareaproclase/Complejo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/Complejo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,20 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeLapse">
+  <component name="RunManager" selected="Application.Punto2D">
+    <configuration name="Complejo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tareaproclase.Complejo" />
+      <module name="JAVA_MACRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tareaproclase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Punto2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tareaproclase.Punto2D" />
       <module name="JAVA_MACRO" />
@@ -72,48 +86,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TESTEOS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TESTEOS" />
+    <configuration name="Unidad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unidad2" />
       <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeLapse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tareaproclase.TimeLapse" />
-      <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tareaproclase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Traballo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cositas.Traballo" />
-      <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cositas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="campoconcentracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Auschwitz.campoconcentracion" />
-      <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Auschwitz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,21 +100,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tareaproclase.Cuenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tareaproclase.Cuenta" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tareaproclase.Persona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tareaproclase.Persona" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.owo" />
-      <item itemvalue="Application.TimeLapse" />
       <item itemvalue="Application.Punto2D" />
-      <item itemvalue="Application.TESTEOS" />
-      <item itemvalue="Application.Traballo" />
-      <item itemvalue="Application.campoconcentracion" />
+      <item itemvalue="Application.Complejo" />
+      <item itemvalue="Application.Unidad2" />
+      <item itemvalue="Application.tareaproclase.Cuenta" />
+      <item itemvalue="Application.tareaproclase.Persona" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimeLapse" />
-        <item itemvalue="Application.campoconcentracion" />
-        <item itemvalue="Application.Traballo" />
-        <item itemvalue="Application.TESTEOS" />
         <item itemvalue="Application.Punto2D" />
+        <item itemvalue="Application.Complejo" />
+        <item itemvalue="Application.tareaproclase.Persona" />
+        <item itemvalue="Application.tareaproclase.Cuenta" />
+        <item itemvalue="Application.Unidad2" />
       </list>
     </recent_temporary>
   </component>
@@ -355,14 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666599998507</updated>
     </task>
-    <task id="LOCAL-00030" summary="Facilito">
-      <created>1667648117189</created>
+    <task id="LOCAL-00030" summary="Poker puntuaciones not acabado">
+      <created>1666698010945</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1667648117189</updated>
+      <updated>1666698010945</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="clase cosas">
+      <created>1667465752489</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667465752489</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +390,8 @@
     <MESSAGE value="Arreglado bug croupier invencible" />
     <MESSAGE value="Mejor croupier y bug dinero retrasado" />
     <MESSAGE value="Poker reparto de cartas" />
-    <MESSAGE value="Facilito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facilito" />
+    <MESSAGE value="Poker puntuaciones not acabado" />
+    <MESSAGE value="clase cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase cosas" />
   </component>
 </project>
