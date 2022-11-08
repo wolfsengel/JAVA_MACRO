@@ -8,7 +8,7 @@ public class campoconcentracion {
 
     public static void main(String[] args) {
         while (true){
-        System.out.println("\n¡Bienvenido al sistema de presos del Campo De Concentracion de Auschwitz!");
+        System.out.println("\nBienvenido al sistema de presos del Campo De Concentracion de Auschwitz!");
         System.out.println("Por favor indica que accion quieres realizar: ");
         System.out.println("\n 1. Registrar interno\n 2. Eliminar interno \n 3. Ver internos \n 4. Salir");
         Scanner uwu = new Scanner(System.in);
@@ -50,10 +50,11 @@ public class campoconcentracion {
             }
             case "3" -> {
                 for (int i=0;i<declaraciones.Internos.size();i++){
-                    System.out.println("Nombre: "+declaraciones.Internos.get(i).nombre);
+                    System.out.println(declaraciones.Internos.get(i));
+                    /*System.out.println("Nombre: "+declaraciones.Internos.get(i).nombre);
                     System.out.println("ID: "+declaraciones.Internos.get(i).numID);
                     System.out.println("Anos Condena: "+declaraciones.Internos.get(i).anoscondena);
-                    System.out.println("Delitos: "+declaraciones.Internos.get(i).delitos);
+                    System.out.println("Delitos: "+declaraciones.Internos.get(i).delitos);*/
                 }
             }
             case "4" -> {
