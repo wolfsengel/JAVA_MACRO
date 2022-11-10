@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
+      <change afterPath="$PROJECT_DIR$/src/jejeje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaTests.java" afterDir="false" />
     </list>
@@ -59,7 +60,7 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaTests">
+  <component name="RunManager" selected="Application.jejeje">
     <configuration name="CasinoDinerito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Casino.CasinoDinerito" />
       <module name="JAVA_MACRO" />
@@ -75,13 +76,6 @@
     </configuration>
     <configuration name="JavaTests$Unidad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaTests$Unidad2" />
-      <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaTests$uwu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaTests$uwu" />
       <module name="JAVA_MACRO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jejeje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jejeje" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="owo" />
       <module name="JAVA_MACRO" />
@@ -116,19 +117,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.jejeje" />
       <item itemvalue="Application.JavaTests" />
       <item itemvalue="Application.JavaTests$Unidad2" />
       <item itemvalue="Application.campoconcentracion" />
       <item itemvalue="Application.CasinoDinerito" />
-      <item itemvalue="Application.JavaTests$uwu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jejeje" />
         <item itemvalue="Application.JavaTests" />
         <item itemvalue="Application.campoconcentracion" />
         <item itemvalue="Application.JavaTests$Unidad2" />
         <item itemvalue="Application.CasinoDinerito" />
-        <item itemvalue="Application.JavaTests$uwu" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667913677098</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="clase cosas">
+      <created>1667986261537</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1667986261537</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
