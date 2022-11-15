@@ -1,4 +1,5 @@
 public class TimeLapse {
+
     private int h;
     private int m;
     private int s;
@@ -67,59 +68,46 @@ public class TimeLapse {
     public void addSec(long sec){
         int auxm=0;
         int auxh=0;
-        int hor=0;
-        int min=0;
-        while(sec/60!=0){
-            sec=sec-60;
-            min++;
-        }
-        if(min>60){
-            while(min/60!=0){
-                min=min-60;
-                hor++;
-            }
-        }
-        /*
-        *
-        *min>60?(sec=sec-60;min++) */
-        this.s= (int) (this.s+sec);
-        this.h=this.h+hor;
-        this.m=this.m+min;
-        if (this.s>60){
-            while(this.s>60){
-                this.s=this.s-60;
-                auxm++;
-            }
-        }
-        this.m=this.m+auxm;
-        if (this.m>60){
-            while(this.m>60){
-                this.m=this.m-60;
-                auxh++;
-            }
-        }
-        this.h=this.h+auxh;
+        //--------------------------------------------
+         int polla= (int) (sec+this.s);
+
+         int cumeado=polla%60;
+         int notcumed=polla/60;
+         auxm+= polla>60? notcumed:0;
+         this.s=polla>60?cumeado:polla;
+
+         int pollon= auxm+this.m;
+         int cummeado=pollon%60;
+         int notcummed=pollon/60;
+         auxh+= pollon>60?notcummed:0;
+         this.m=pollon>60?cummeado:pollon;
+
+         this.h=this.h+auxh;
+        // ------------------------------------------
     }
     public void addTime(TimeLapse cum){
-        this.h=this.h+cum.h;
-        this.m=this.m+cum.m;
-        this.s=this.s+cum.s;
-        int auxm=0;
-        int auxh=0;
-        if (this.s>60){
-            while(this.s>60){
-                this.s=this.s-60;
-                auxm++;
-            }
-        }
-        this.m=this.m+auxm;
-        if (this.m>60){
-            while(this.m>60){
-                this.m=this.m-60;
-                auxh++;
-            }
-        }
-        this.h=this.h+auxh;
+        int sec=this.s+ cum.s;
+        int min=this.m+cum.m;
+        int hor=this.h+cum.h;
+        int auxm;
+        int auxh;
+        //--------------------------------------------
+        int cummed=sec%60;
+        int notcummed=sec/60;
+        auxm=sec>60?notcummed:0;
+        sec=sec>60?cummed:sec;
+
+        min=min+auxm;
+        int cumed=min%60;
+        int notcumed=min/60;
+        auxh=min>60?notcumed:0;
+        min=min>60?cumed:min;
+
+        hor=hor+auxh;
+
+        this.s=sec;
+        this.m=min;
+        this.h=hor;
     }
     @Override
     public String toString(){
