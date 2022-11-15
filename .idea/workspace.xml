@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
-      <change afterPath="$PROJECT_DIR$/src/MyLittleDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/jejeje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/mETEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TimeLapse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoletinesJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/BoletinesJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/JavaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/caso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/caso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jejeje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/owo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/owo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLittleDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +64,7 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLittleDecimal">
-    <configuration name="JavaTests$Unidad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaTests$Unidad2" />
-      <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Tests">
     <configuration name="MyLittleDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyLittleDecimal" />
       <module name="JAVA_MACRO" />
@@ -85,15 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="campoconcentracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Auschwitz.campoconcentracion" />
+    <configuration name="Tests$jejeje" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests$jejeje" />
       <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Auschwitz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <module name="JAVA_MACRO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,18 +110,18 @@
     <list>
       <item itemvalue="Application.tareaproclase.owo" />
       <item itemvalue="Application.MyLittleDecimal" />
+      <item itemvalue="Application.Tests" />
+      <item itemvalue="Application.Tests$jejeje" />
       <item itemvalue="Application.tareaproclase.JavaTests" />
       <item itemvalue="Application.tareaproclase.jejeje" />
-      <item itemvalue="Application.JavaTests$Unidad2" />
-      <item itemvalue="Application.campoconcentracion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tests" />
+        <item itemvalue="Application.Tests$jejeje" />
         <item itemvalue="Application.MyLittleDecimal" />
         <item itemvalue="Application.tareaproclase.jejeje" />
         <item itemvalue="Application.tareaproclase.JavaTests" />
-        <item itemvalue="Application.campoconcentracion" />
-        <item itemvalue="Application.JavaTests$Unidad2" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668078555316</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="clase cosas">
+      <created>1668517504991</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668517504991</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
