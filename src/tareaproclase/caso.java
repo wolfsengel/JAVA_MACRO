@@ -1,3 +1,5 @@
+package tareaproclase;
+
 public class caso {
     String nombre;
     int dni;

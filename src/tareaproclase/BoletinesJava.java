@@ -1,3 +1,5 @@
+package tareaproclase;
+
 import java.util.Scanner;
 public class BoletinesJava {
     public static void caso1(){
