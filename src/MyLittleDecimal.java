@@ -1,6 +1,3 @@
-import java.text.DecimalFormat;
-import java.util.Objects;
-
 public class MyLittleDecimal {
     int noomeroo;
     MyLittleDecimal(String numuru){
