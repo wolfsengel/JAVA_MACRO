@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
-      <change afterPath="$PROJECT_DIR$/src/TimeLapse2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyLittleDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLittleDecimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tareaproclase/Punto2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="http" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeLapse2">
+  <component name="RunManager" selected="Application.MyLittleDecimal">
     <configuration name="MyLittleDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyLittleDecimal" />
       <module name="JAVA_MACRO" />
@@ -117,10 +116,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLittleDecimal" />
         <item itemvalue="Application.TimeLapse2" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Tests$jejeje" />
-        <item itemvalue="Application.MyLittleDecimal" />
         <item itemvalue="Application.tareaproclase.jejeje" />
       </list>
     </recent_temporary>
@@ -393,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668517504991</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="clase cosas">
+      <created>1668586967140</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586967140</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,25 +434,5 @@
     <MESSAGE value="Poker puntuaciones not acabado" />
     <MESSAGE value="clase cosas" />
     <option name="LAST_COMMIT_MESSAGE" value="clase cosas" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TimeLapse2.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/TimeLapse2.java</url>
-          <line>22</line>
-          <properties class="TimeLapse2" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
