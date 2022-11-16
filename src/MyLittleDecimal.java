@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 import java.util.Objects;
 
 public class MyLittleDecimal {
@@ -10,24 +9,14 @@ public class MyLittleDecimal {
         this.noomeroo= (int) (numuruwu*100);
     }
     int getValor(){
-        return Integer.parseInt(String.valueOf(noomeroo));
+        return this.noomeroo;
     }
     @Override
     public String toString() {
-        double pedo = Double.parseDouble(String.valueOf(noomeroo))/100;
-        String[] resultado= resultado.toArray();
-        resultado= String.valueOf(resultado.toCharArray());
-        String[] resooltado = resultado;
-        if (Objects.equals(resooltado[resooltado.length-1], ",")){
-            DecimalFormat df = new DecimalFormat("#.00");
-            resultado=df.format(resultado);
-            resultado=resultado.replaceAll("\\.",",");
-            return  resultado;
-        }else{
-            resultado=resultado.replaceAll("\\.",",");
-            return resultado;
-        }
-
+            double owo = noomeroo;
+            double resultado= owo/100;
+            String result = String.format("%.2f", resultado);
+            return result.replaceAll("\\.",",");
     }
     MyLittleDecimal sumar(MyLittleDecimal cum){
         double noomeroo1 = this.noomeroo;
