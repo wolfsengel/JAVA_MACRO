@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="midecimal collons">
-      <change afterPath="$PROJECT_DIR$/src/Coordenadas.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
+      <change afterPath="$PROJECT_DIR$/src/tarea6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_11_2022_16_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_11_2022_16_40__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_11_2022_16_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_11_2022_16_57__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +54,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/Programacion/intellijcosas/Intro&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Programacion\intellijcosas\JAVA_MACRO\src\tareaproclase" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="http" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Coordenadas">
-    <configuration name="Coordenadas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coordenadas" />
-      <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.tarea6">
     <configuration name="MyLittleDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyLittleDecimal" />
       <module name="JAVA_MACRO" />
@@ -84,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeLapse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tareaproclase.TimeLapse" />
-      <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tareaproclase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimeLapse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TimeLapse2" />
       <module name="JAVA_MACRO" />
@@ -104,28 +88,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="owo" />
+    <configuration name="lozimivida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lozimivida" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tarea6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarea6" />
+      <module name="JAVA_MACRO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tareaproclase.owo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tareaproclase.owo" />
       <module name="JAVA_MACRO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.owo" />
-      <item itemvalue="Application.Coordenadas" />
-      <item itemvalue="Application.Tests" />
-      <item itemvalue="Application.MyLittleDecimal" />
+      <item itemvalue="Application.tareaproclase.owo" />
+      <item itemvalue="Application.lozimivida" />
+      <item itemvalue="Application.tarea6" />
       <item itemvalue="Application.TimeLapse2" />
-      <item itemvalue="Application.TimeLapse" />
+      <item itemvalue="Application.MyLittleDecimal" />
+      <item itemvalue="Application.Tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Coordenadas" />
-        <item itemvalue="Application.Tests" />
+        <item itemvalue="Application.tarea6" />
+        <item itemvalue="Application.lozimivida" />
         <item itemvalue="Application.MyLittleDecimal" />
         <item itemvalue="Application.TimeLapse2" />
-        <item itemvalue="Application.TimeLapse" />
+        <item itemvalue="Application.Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -341,35 +339,70 @@
       <option name="project" value="LOCAL" />
       <updated>1666599998507</updated>
     </task>
-    <task id="LOCAL-00030" summary="Facilito">
-      <created>1667648117189</created>
+    <task id="LOCAL-00030" summary="Poker puntuaciones not acabado">
+      <created>1666698010945</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1667648117189</updated>
+      <updated>1666698010945</updated>
     </task>
-    <task id="LOCAL-00031" summary="Se vinieron cositas">
-      <created>1668615476907</created>
+    <task id="LOCAL-00031" summary="clase cosas">
+      <created>1667465752489</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1668615476907</updated>
+      <updated>1667465752489</updated>
     </task>
-    <task id="LOCAL-00032" summary="Se vinieron cositas">
-      <created>1668620418338</created>
+    <task id="LOCAL-00032" summary="clase cosas">
+      <created>1667808121641</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1668620418338</updated>
+      <updated>1667808121641</updated>
     </task>
-    <task id="LOCAL-00033" summary="midecimal collons">
-      <created>1668705739466</created>
+    <task id="LOCAL-00033" summary="clase cosas">
+      <created>1667819253730</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1668705739466</updated>
+      <updated>1667819253730</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="clase cosas">
+      <created>1667913677098</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667913677098</updated>
+    </task>
+    <task id="LOCAL-00035" summary="clase cosas">
+      <created>1667986261537</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1667986261537</updated>
+    </task>
+    <task id="LOCAL-00036" summary="clase cosas">
+      <created>1668078555316</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668078555316</updated>
+    </task>
+    <task id="LOCAL-00037" summary="clase cosas">
+      <created>1668517504991</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668517504991</updated>
+    </task>
+    <task id="LOCAL-00038" summary="clase cosas">
+      <created>1668586967140</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586967140</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,20 +434,8 @@
     <MESSAGE value="Arreglado bug croupier invencible" />
     <MESSAGE value="Mejor croupier y bug dinero retrasado" />
     <MESSAGE value="Poker reparto de cartas" />
-    <MESSAGE value="Facilito" />
-    <MESSAGE value="Se vinieron cositas" />
-    <MESSAGE value="midecimal collons" />
-    <option name="LAST_COMMIT_MESSAGE" value="midecimal collons" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TimeLapse.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Poker puntuaciones not acabado" />
+    <MESSAGE value="clase cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase cosas" />
   </component>
 </project>

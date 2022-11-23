@@ -5,96 +5,65 @@ import static java.lang.Math.abs;
 public class MyLittleDecimal {
     int noomeroo;
     MyLittleDecimal(String numuru){
-        numuru=numuru.replaceAll(",",".");
-        double numuruwu=Double.parseDouble(numuru);
-        this.noomeroo= (int) (numuruwu*100);
+        numuru=numuru.replaceAll(",","");
+        this.noomeroo=Integer.parseInt(numuru);
     }
     int getValor(){
         return this.noomeroo;
     }
     public String deINTaFdouble(int noomeroo){
+        String loziuwu=String.valueOf(noomeroo);
         if (noomeroo==0){
             return "0,00";
         }
-        String num=noomeroo+" ";
-        String[] ary= num.split("");
-        if (Objects.equals(ary[0], "-")){
-            num=num.replaceAll("-","");
-            ary= num.split("");
+        if (noomeroo<0 && loziuwu.length()==3){
+            noomeroo=noomeroo*-1;
+            return "-0,"+noomeroo;
         }
-        if (ary.length==2){
-            if (noomeroo<0){
-                noomeroo=abs(noomeroo);
-                String num2="00"+noomeroo+"0";
-                String[] ary2= num2.split("");
-                ary2[ary2.length-1]=ary2[ary2.length-2];
-                ary2[ary2.length-2]=ary2[ary2.length-3];
-                ary2[ary2.length-3]=",";
-                return "-"+String.join("", ary2);
-            }
-            String num2="00"+noomeroo+"0";
-            String[] ary2= num2.split("");
-            ary2[ary2.length-1]=ary2[ary2.length-2];
-            ary2[ary2.length-2]=ary2[ary2.length-3];
-            ary2[ary2.length-3]=",";
-            return String.join("", ary2);
+        if (noomeroo<0 && loziuwu.length()==2){
+            noomeroo=noomeroo*-1;
+            return "-0,0"+noomeroo;
         }
-        if (ary.length==3){
-            if (noomeroo<0){
-                noomeroo=abs(noomeroo);
-                String num2="0"+noomeroo+"0";
-                String[] ary2= num2.split("");
-                ary2[ary2.length-1]=ary2[ary2.length-2];
-                ary2[ary2.length-2]=ary2[ary2.length-3];
-                ary2[ary2.length-3]=",";
-                return "-"+String.join("", ary2);
-            }
-            String num2="0"+noomeroo+"0";
-            String[] ary2= num2.split("");
-            ary2[ary2.length-1]=ary2[ary2.length-2];
-            ary2[ary2.length-2]=ary2[ary2.length-3];
-            ary2[ary2.length-3]=",";
-            return String.join("", ary2);
+        if (noomeroo>0 && loziuwu.length()==1){
+            return "0,0"+noomeroo;
         }
-        ary[ary.length-1]=ary[ary.length-2];
-        ary[ary.length-2]=ary[ary.length-3];
-        ary[ary.length-3]=",";
-        if (noomeroo<0){
-            return "-"+String.join("", ary);
-        }else return String.join("", ary);
+        if (noomeroo>0 && loziuwu.length()==2){
+            return "0,"+loziuwu;
+        }
+        String lozizizi=",";
+        loziuwu=loziuwu.substring(0,loziuwu.length()-2)+lozizizi+loziuwu.substring(loziuwu.length()-2);
+        return loziuwu;
     }
     @Override
     public String toString() {
         return deINTaFdouble(this.noomeroo);
     }
     MyLittleDecimal sumar(MyLittleDecimal cum){
-        double noomeroo1 = this.noomeroo;
-        double noomeroo2 = cum.noomeroo;
+        int result = this.noomeroo+cum.noomeroo;
 
-        return new MyLittleDecimal(String.valueOf((noomeroo1+noomeroo2)/100));
+        return new MyLittleDecimal(deINTaFdouble(result));
     }
     MyLittleDecimal restar(MyLittleDecimal cum){
-        double noomeroo1 = this.noomeroo;
-        double noomeroo2 = cum.noomeroo;
+        int result=this.noomeroo-cum.noomeroo;
         if (this.noomeroo==cum.noomeroo){
             return new MyLittleDecimal("000");
-        } else return new MyLittleDecimal(String.valueOf((noomeroo1-noomeroo2)/100));
+        } else return new MyLittleDecimal(deINTaFdouble(result));
     }
     MyLittleDecimal multiplicar(MyLittleDecimal cum){
-        double noomeroo1 = this.noomeroo;
-        double noomeroo2 = cum.noomeroo;
-        return new MyLittleDecimal(String.valueOf((noomeroo1*noomeroo2)/10000));
+        int result2 = this.noomeroo*cum.noomeroo;
+        int result = result2/100;
+        return new MyLittleDecimal(deINTaFdouble(result));
     }
     MyLittleDecimal dividir(MyLittleDecimal cum){
-        double noomeroo1 = this.noomeroo;
-        double noomeroo2 = cum.noomeroo;
-        return new MyLittleDecimal(String.valueOf((noomeroo1*100/noomeroo2*100)/10000));
+        int result=(this.noomeroo*100)/cum.noomeroo;
+        return new MyLittleDecimal(deINTaFdouble(result));
     }
 
     public static void main(String[] args) {
-        MyLittleDecimal mld1 = new MyLittleDecimal("100,00");
-        MyLittleDecimal mld2 = new MyLittleDecimal("300,00");
-        MyLittleDecimal mld3=mld1.dividir(mld2);
+        MyLittleDecimal mld1 = new MyLittleDecimal("8,00");
+        MyLittleDecimal mld2 = new MyLittleDecimal("-1,25");
+        MyLittleDecimal mld3=mld1.multiplicar(mld2);
+        System.out.println(mld3.getValor());
         System.out.println(mld3);
     }
 }
