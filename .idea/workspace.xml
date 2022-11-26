@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="diamante por fin">
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/ficumnacci.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="cumminacci">
+      <change afterPath="$PROJECT_DIR$/src/tareaproclase/Potencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tareaproclase/todio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,16 +62,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ficumnacci">
+  <component name="RunManager" selected="Application.todio">
     <configuration name="Coordenadas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Coordenadas" />
-      <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests" />
       <module name="JAVA_MACRO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,21 +110,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="todio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tareaproclase.todio" />
+      <module name="JAVA_MACRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tareaproclase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.owo" />
       <item itemvalue="Application.fibonacci" />
       <item itemvalue="Application.ficumnacci" />
+      <item itemvalue="Application.todio" />
       <item itemvalue="Application.locurote" />
       <item itemvalue="Application.Coordenadas" />
-      <item itemvalue="Application.Tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.todio" />
         <item itemvalue="Application.ficumnacci" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.locurote" />
         <item itemvalue="Application.Coordenadas" />
-        <item itemvalue="Application.Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669466224302</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="cumminacci">
+      <created>1669467647525</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669467647525</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +431,8 @@
     <MESSAGE value="Se vinieron cositas" />
     <MESSAGE value="midecimal collons" />
     <MESSAGE value="diamante por fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="diamante por fin" />
+    <MESSAGE value="cumminacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="cumminacci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
