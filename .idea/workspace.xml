@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="cumminacci">
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/Potencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/todio.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="empezamos ultimas cosas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tareaproclase/todio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/todio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669467647525</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="empezamos ultimas cosas">
+      <created>1669481022911</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669481022911</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +438,8 @@
     <MESSAGE value="midecimal collons" />
     <MESSAGE value="diamante por fin" />
     <MESSAGE value="cumminacci" />
-    <option name="LAST_COMMIT_MESSAGE" value="cumminacci" />
+    <MESSAGE value="empezamos ultimas cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="empezamos ultimas cosas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
