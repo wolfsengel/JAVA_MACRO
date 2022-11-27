@@ -1,8 +1,8 @@
 package tareaproclase;
 
 public class Potencia{
-    double real;
-    int arriba;
+    private final double real;
+    private final int arriba;
     Potencia(double uwu, int aja){
         this.real=uwu;
         this.arriba =aja;
@@ -37,6 +37,4 @@ public class Potencia{
         System.out.println("si multiplico con distinta base: "+p1.multiplicarConIgualBase(p));
         System.out.println(p1.multiplicarConIgualBase(p2));
     }
-
-
 }
