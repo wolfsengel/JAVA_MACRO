@@ -1,5 +1,4 @@
 package tareaproclase;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class todio {
@@ -14,9 +13,7 @@ public class todio {
         }
         if (numCasos == 0) {
         } else {
-
             do {
-
                 String texto = s.nextLine();
                 String buscar = s.nextLine();
 
@@ -37,7 +34,6 @@ public class todio {
                         }
                     }
                 }
-
                 count++;
                 if (contadorBusqueda == buscar.length()) {
                     System.out.println("SI");

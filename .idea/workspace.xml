@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="rematamos ultimas cosas">
+      <change afterPath="$PROJECT_DIR$/src/examen2021/Pizzas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tareaproclase/todio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/todio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Potencia">
+  <component name="RunManager" selected="Application.Pizzas">
+    <configuration name="Pizzas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen2021.Pizzas" />
+      <module name="JAVA_MACRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Potencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tareaproclase.Potencia" />
       <module name="JAVA_MACRO" />
@@ -100,13 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locurote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locurote" />
-      <module name="JAVA_MACRO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="owo" />
       <module name="JAVA_MACRO" />
@@ -129,19 +137,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.Pizzas" />
       <item itemvalue="Application.Potencia" />
       <item itemvalue="Application.fibonacci" />
       <item itemvalue="Application.ficumnacci" />
       <item itemvalue="Application.todio" />
-      <item itemvalue="Application.locurote" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Potencia" />
+        <item itemvalue="Application.Pizzas" />
         <item itemvalue="Application.todio" />
+        <item itemvalue="Application.Potencia" />
         <item itemvalue="Application.ficumnacci" />
         <item itemvalue="Application.fibonacci" />
-        <item itemvalue="Application.locurote" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669563336430</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="rematamos ultimas cosas">
+      <created>1669571651883</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669571651883</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
