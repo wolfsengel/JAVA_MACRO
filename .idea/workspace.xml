@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="rematamos ultimas cosas">
-      <change afterPath="$PROJECT_DIR$/src/examen2021/Pizzas.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="rematamos ultimas cosas y EMPEZAMOS EXAMEN">
+      <change afterPath="$PROJECT_DIR$/src/examen2021/MulRusa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examen2021/mulRussa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tareaproclase/Risk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tareaproclase/todio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tareaproclase/todio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pizzas">
+  <component name="RunManager" selected="Application.mulRussa">
+    <configuration name="MulRusa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen2021.MulRusa" />
+      <module name="JAVA_MACRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examen2021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pizzas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examen2021.Pizzas" />
       <module name="JAVA_MACRO" />
@@ -89,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tareaproclase.fibonacci" />
+    <configuration name="mulRussa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen2021.mulRussa" />
       <module name="JAVA_MACRO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tareaproclase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ficumnacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tareaproclase.ficumnacci" />
-      <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tareaproclase.*" />
+          <option name="PATTERN" value="examen2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +138,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.MulRusa" />
+      <item itemvalue="Application.mulRussa" />
       <item itemvalue="Application.Pizzas" />
       <item itemvalue="Application.Potencia" />
-      <item itemvalue="Application.fibonacci" />
-      <item itemvalue="Application.ficumnacci" />
       <item itemvalue="Application.todio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mulRussa" />
+        <item itemvalue="Application.MulRusa" />
         <item itemvalue="Application.Pizzas" />
         <item itemvalue="Application.todio" />
         <item itemvalue="Application.Potencia" />
-        <item itemvalue="Application.ficumnacci" />
-        <item itemvalue="Application.fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669571651883</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="rematamos ultimas cosas y EMPEZAMOS EXAMEN">
+      <created>1669675254621</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669675254621</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +475,8 @@
     <MESSAGE value="cumminacci" />
     <MESSAGE value="empezamos ultimas cosas" />
     <MESSAGE value="rematamos ultimas cosas" />
-    <option name="LAST_COMMIT_MESSAGE" value="rematamos ultimas cosas" />
+    <MESSAGE value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,6 +485,11 @@
           <url>file://$PROJECT_DIR$/src/TimeLapse.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/examen2021/MulRusa.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
