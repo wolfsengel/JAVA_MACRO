@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="rematamos ultimas cosas y EMPEZAMOS EXAMEN">
-      <change afterPath="$PROJECT_DIR$/src/examen2021/MulRusa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examen2021/mulRussa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/Risk.java" afterDir="false" />
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="Examen cosas">
+      <change afterPath="$PROJECT_DIR$/src/examen2021/TimeLapse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examen2021/mulRusaRECUR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mulRussa">
+  <component name="RunManager" selected="Application.TimeLapse">
     <configuration name="MulRusa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="examen2021.MulRusa" />
       <module name="JAVA_MACRO" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Potencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tareaproclase.Potencia" />
+    <configuration name="TimeLapse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examen2021.TimeLapse" />
       <module name="JAVA_MACRO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tareaproclase.*" />
+          <option name="PATTERN" value="examen2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,18 +138,18 @@
     <list>
       <item itemvalue="Application.owo" />
       <item itemvalue="Application.MulRusa" />
+      <item itemvalue="Application.TimeLapse" />
       <item itemvalue="Application.mulRussa" />
       <item itemvalue="Application.Pizzas" />
-      <item itemvalue="Application.Potencia" />
       <item itemvalue="Application.todio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeLapse" />
         <item itemvalue="Application.mulRussa" />
         <item itemvalue="Application.MulRusa" />
         <item itemvalue="Application.Pizzas" />
         <item itemvalue="Application.todio" />
-        <item itemvalue="Application.Potencia" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669675254621</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Examen cosas">
+      <created>1669751844932</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669751844932</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maineamos" />
     <MESSAGE value="Preparamos" />
     <MESSAGE value="SWITCH READY" />
     <MESSAGE value="Cambios ojito" />
@@ -476,7 +481,8 @@
     <MESSAGE value="empezamos ultimas cosas" />
     <MESSAGE value="rematamos ultimas cosas" />
     <MESSAGE value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
-    <option name="LAST_COMMIT_MESSAGE" value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
+    <MESSAGE value="Examen cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Examen cosas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,11 +491,6 @@
           <url>file://$PROJECT_DIR$/src/TimeLapse.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/examen2021/MulRusa.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
