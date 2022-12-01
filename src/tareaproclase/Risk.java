@@ -48,7 +48,7 @@ public class Risk {
         int ata = Math.min(attack.length, defence.length);
         for (int i=0;i<ata;i++){
             if (attack[i]<defence[i]){
-                
+
             } else if (defence[i]<attack[i]) {
                 
             }
