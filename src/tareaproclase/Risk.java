@@ -76,15 +76,15 @@ public class Risk {
             System.out.println(Arrays.toString(defence));
             System.out.println(Arrays.toString(attack));
 
-            int defc=0,attc=0;
+            int defc=td,attc=ta;
             for (int i : attack) {
                 if (i != 0) {
-                    attc++;
+                    attc--;
                 }
             }
             for (int i : defence) {
                 if (i != 0) {
-                    defc++;
+                    defc--;
                 }
             }
             System.out.println(defc+" "+attc);

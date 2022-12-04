@@ -1,3 +1,5 @@
+package tareaproclase;
+
 public class Coordenadas {
       int x;
       int y;
