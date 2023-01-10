@@ -23,11 +23,11 @@ public class campoconcentracion {
 
                 System.out.println("\n Digame el Id del afortunado: ");
                 Scanner uwu2 = new Scanner(System.in);
-                int owo2 = Integer.parseInt(uwu2.nextLine());
+                int owo2 = uwu2.nextInt();
 
                 System.out.println("\n Digame los anos de condena del afortunado: ");
                 Scanner uwu3 = new Scanner(System.in);
-                int owo3 = Integer.parseInt(uwu3.nextLine());
+                int owo3 = uwu3.nextInt();
 
                 System.out.println("Digame los delitos del afortunado: ");
                 Scanner uwu4 = new Scanner(System.in);
@@ -51,10 +51,10 @@ public class campoconcentracion {
             case "3" -> {
                 for (int i=0;i<declaraciones.Internos.size();i++){
                     System.out.println(declaraciones.Internos.get(i));
-                    /*System.out.println("Nombre: "+declaraciones.Internos.get(i).nombre);
+                    System.out.println("Nombre: "+declaraciones.Internos.get(i).nombre);
                     System.out.println("ID: "+declaraciones.Internos.get(i).numID);
                     System.out.println("Anos Condena: "+declaraciones.Internos.get(i).anoscondena);
-                    System.out.println("Delitos: "+declaraciones.Internos.get(i).delitos);*/
+                    System.out.println("Delitos: "+declaraciones.Internos.get(i).delitos);
                 }
             }
             case "4" -> {
