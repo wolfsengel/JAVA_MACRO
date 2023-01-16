@@ -176,10 +176,9 @@ return dineroactualizado;
             mesota.add(mesa3);
             mesota.add(mesa4);
             mesota.add(mesa5);
-            for (Declaraciones.carta carta : mesota) {
+            for (carta carta : mesota) {
                 System.out.println(carta.numerino + " de " + carta.palo + " " + carta.colorino + " \n");
             }
-            ArrayList<carta> oponente=new ArrayList<>();
             carta suya = new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
             carta suya2=new carta(coloraleatoria(),paloaleatoria(),cartaaleatoria());
             int puntuacion=0;
