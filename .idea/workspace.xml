@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
-      <change afterPath="$PROJECT_DIR$/src/UDP/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UDP/UDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trim_2/eje0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDP/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDP/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trim_2/eje0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trim_2/eje0.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UDPServer">
+  <component name="RunManager" selected="Application.eje0">
     <configuration name="CasinoDinerito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Casino.CasinoDinerito" />
       <module name="JAVA_MACRO" />
@@ -149,8 +145,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.eje0" />
+        <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.CasinoDinerito" />
         <item itemvalue="Application.Risk" />
         <item itemvalue="Application.Pizzas" />
