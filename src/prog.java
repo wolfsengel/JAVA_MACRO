@@ -1,27 +1,36 @@
-import java.util.*;
-public class prog{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String[] num1=new String[3];
-        String[] num2=new String[3];
-        String nums=sc.nextLine();
-        nums= nums.replaceAll(" ","");
-        String[] num= nums.split("");
-        while(Integer.parseInt(num[0])!=0 && Integer.parseInt(num[2])!=0){
+import java.util.Scanner;
 
-        for (int i=0;i<3;i++){
-            num1[i]=num[i];
-        }
-        for (int i=0;i<3;i++){
-            num2[i]=num[i+2];
-        }
-        int cont=0;
-        for (int i=0;i<3;i++){
-            if ( Integer.parseInt(num1[i]) +Integer.parseInt(num2[i])>9){
-                cont++;
+public class prog {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            String numero1 = scanner.next();
+            String numero2 = scanner.next();
+
+            if (numero1.equals("0") && numero2.equals("0")) {
+                return;
             }
-        }
-        System.out.println(cont);
+
+            int acarreo = 0;
+            int count = 0;
+            int i = 0;
+            while (true) {
+                int digit1 = i < numero1.length() ? numero1.charAt(numero1.length() - i - 1) - '0' : 0;
+                int digit2 = i < numero2.length() ? numero2.charAt(numero2.length() - i - 1) - '0' : 0;
+                acarreo = digit1 + digit2 + acarreo;
+                if (acarreo > 9) {
+                    count++;
+                    acarreo = 1;
+                } else {
+                    acarreo = 0;
+                }
+                i++;
+                if (acarreo==0 && (i > numero1.length() - 1 || i > numero2.length() - 1)) {
+                    break;
+                }
+            }
+
+            System.out.println(count);
         }
     }
 }
