@@ -33,7 +33,7 @@ public class UDPServer {
             System.out.println("Received object: " + receivedObject);
 
             // Send a response to the sender
-            String response = "Object received";
+            String response = "Laura mas que fea";
             byte[] sendData = response.getBytes();
             DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
             serverSocket.send(sendPacket);

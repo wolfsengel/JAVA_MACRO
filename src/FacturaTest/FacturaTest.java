@@ -1,7 +1,6 @@
 package FacturaTest;
 import ClaseCD.*;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class FacturaTest {
