@@ -1,0 +1,213 @@
+Index: src/prog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Scanner;\r\n\r\npublic class prog {\r\n    public static void main(String[] args) {\r\n        Scanner scanner = new Scanner(System.in);\r\n        while (true) {\r\n            String numero1 = scanner.next();\r\n            String numero2 = scanner.next();\r\n\r\n            if (numero1.equals(\"0\") && numero2.equals(\"0\")) {\r\n                return;\r\n            }\r\n\r\n            int acarreo = 0;\r\n            int count = 0;\r\n            int i = 0;\r\n            while (true) {\r\n                int digit1 = i < numero1.length() ? numero1.charAt(numero1.length() - i - 1) - '0' : 0;\r\n                int digit2 = i < numero2.length() ? numero2.charAt(numero2.length() - i - 1) - '0' : 0;\r\n                acarreo = digit1 + digit2 + acarreo;\r\n                if (acarreo > 9) {\r\n                    count++;\r\n                    acarreo = 1;\r\n                } else {\r\n                    acarreo = 0;\r\n                }\r\n                i++;\r\n                if (acarreo==0 && (i > numero1.length() - 1 || i > numero2.length() - 1)) {\r\n                    break;\r\n                }\r\n            }\r\n\r\n            System.out.println(count);\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/prog.java b/src/prog.java
+--- a/src/prog.java	(revision a85a234898404cdc9f3f0fbb62c64065e11a092a)
++++ b/src/prog.java	(date 1677345403007)
+@@ -1,36 +1,53 @@
++import java.util.ArrayList;
++import java.util.List;
+ import java.util.Scanner;
+ 
+ public class prog {
+-    public static void main(String[] args) {
+-        Scanner scanner = new Scanner(System.in);
+-        while (true) {
+-            String numero1 = scanner.next();
+-            String numero2 = scanner.next();
+ 
+-            if (numero1.equals("0") && numero2.equals("0")) {
+-                return;
+-            }
++    public static void quickSort(List<Integer> list) {
++        if (list == null || list.isEmpty()) {
++            return;
++        }
++        sort(list, 0, list.size() - 1);
++    }
+ 
+-            int acarreo = 0;
+-            int count = 0;
+-            int i = 0;
+-            while (true) {
+-                int digit1 = i < numero1.length() ? numero1.charAt(numero1.length() - i - 1) - '0' : 0;
+-                int digit2 = i < numero2.length() ? numero2.charAt(numero2.length() - i - 1) - '0' : 0;
+-                acarreo = digit1 + digit2 + acarreo;
+-                if (acarreo > 9) {
+-                    count++;
+-                    acarreo = 1;
+-                } else {
+-                    acarreo = 0;
+-                }
++    private static void sort(List<Integer> list, int low, int high) {
++        if (low < high) {
++            int pivotIndex = partition(list, low, high);
++            sort(list, low, pivotIndex - 1);
++            sort(list, pivotIndex + 1, high);
++        }
++    }
++
++    private static int partition(List<Integer> list, int low, int high) {
++        int pivot = list.get(high);
++        int i = low - 1;
++        for (int j = low; j < high; j++) {
++            if (list.get(j) <= pivot) {
+                 i++;
+-                if (acarreo==0 && (i > numero1.length() - 1 || i > numero2.length() - 1)) {
+-                    break;
+-                }
+-            }
++                swap(list, i, j);
++            }
++        }
++        swap(list, i + 1, high);
++        return i + 1;
++    }
++
++    private static void swap(List<Integer> list, int i, int j) {
++        int temp = list.get(i);
++        list.set(i, list.get(j));
++        list.set(j, temp);
++    }
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        List<Integer> listaenteros = new ArrayList<>();
++        String[] list2 = sc.nextLine().split(" ");
++        for (String s : list2) {
++            listaenteros.add(Integer.parseInt(s));
++        }
+ 
+-            System.out.println(count);
+-        }
+-    }
+-}
+\ No newline at end of file
++        quickSort(listaenteros);
++
++        System.out.println(listaenteros.get(1));
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b1b26bee-4ec3-4aea-85c4-c0b776a1b07b\" name=\"Changes\" comment=\"RISK PASOS\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/ClaseCD/Factura.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/FacturaTest/FacturaTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/cositas/ArbolBinario.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/tareaproclase/LetrasGordas.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/JAVA_MACRO.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/JAVA_MACRO.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/cositas/Traballo.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/prog.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/prog.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"SET_USER_NAME_GLOBALLY\" value=\"false\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2FhoqAXzvleCtBxzT70be1nNJMR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"ExtractSuperBase.RECENT_KEYS\">\r\n      <recent name=\"http\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ArbolBinario\">\r\n    <configuration name=\"ArbolBinario\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cositas.ArbolBinario\" />\r\n      <module name=\"JAVA_MACRO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cositas.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Factura\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ClaseCD.Factura\" />\r\n      <module name=\"JAVA_MACRO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ClaseCD.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UDPClient\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"UDP.UDPClient\" />\r\n      <module name=\"JAVA_MACRO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"UDP.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UDPServer\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"UDP.UDPServer\" />\r\n      <module name=\"JAVA_MACRO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"UDP.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"owo\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"owo\" />\r\n      <module name=\"JAVA_MACRO\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FacturaTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JAVA_MACRO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"FacturaTest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"FacturaTest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FacturaTest.FacturaTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.owo\" />\r\n      <item itemvalue=\"Application.ArbolBinario\" />\r\n      <item itemvalue=\"Application.Factura\" />\r\n      <item itemvalue=\"Application.UDPClient\" />\r\n      <item itemvalue=\"Application.UDPServer\" />\r\n      <item itemvalue=\"JUnit.FacturaTest\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ArbolBinario\" />\r\n        <item itemvalue=\"JUnit.FacturaTest\" />\r\n        <item itemvalue=\"Application.Factura\" />\r\n        <item itemvalue=\"Application.UDPClient\" />\r\n        <item itemvalue=\"Application.UDPServer\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b1b26bee-4ec3-4aea-85c4-c0b776a1b07b\" name=\"Changes\" comment=\"\" />\r\n      <created>1664953866954</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1664953866954</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Maineamos\">\r\n      <created>1664954111947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664954111947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Preparamos\">\r\n      <created>1664954456504</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664954456504</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"SWITCH READY\">\r\n      <created>1664955200528</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664955200528</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Cambios ojito\">\r\n      <created>1664956669304</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664956669304</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"TODOS LOS CAMBIOS\">\r\n      <created>1664957152058</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664957152058</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"TODOS LOS CAMBIOS\">\r\n      <created>1664958291038</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1664958291038</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"TODOS LOS CAMBIOS\">\r\n      <created>1665039778935</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665039778935</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"TESTS\">\r\n      <created>1665041676052</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665041676052</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"listas\">\r\n      <created>1665389738671</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665389738671</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"ole\">\r\n      <created>1665486704730</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665486704730</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"ole\">\r\n      <created>1665488760386</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665488760386</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"ole\">\r\n      <created>1665491010250</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665491010250</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"ole\">\r\n      <created>1665746792437</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665746792437</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"ole\">\r\n      <created>1665989946429</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665989946429</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"ole\">\r\n      <created>1666093178103</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666093178103</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"ole\">\r\n      <created>1666095822011</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666095822011</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"ole\">\r\n      <created>1666163435814</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666163435814</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"ole1\">\r\n      <created>1666163484954</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666163484954</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"ole1\">\r\n      <created>1666163706233</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666163706233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Campo de concentracion Actualizado\">\r\n      <created>1666166053705</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666166053705</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"Campo de concentracion Funcional\">\r\n      <created>1666167240560</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666167240560</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"SOLUCION PROBLEMA BORRADO\">\r\n      <created>1666167718536</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666167718536</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"Blackjack terminado!!!!!!111!11\">\r\n      <created>1666254756165</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666254756165</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"Arreglado bug dinero infinito\">\r\n      <created>1666255196617</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666255196617</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"Arreglado bug croupier invencible\">\r\n      <created>1666255511976</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666255511976</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"Arreglado bug croupier invencible\">\r\n      <created>1666255885562</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666255885562</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"Mejor croupier y bug dinero retrasado\">\r\n      <created>1666596188536</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666596188536</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"Poker reparto de cartas\">\r\n      <created>1666599734598</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666599734598</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"Poker reparto de cartas\">\r\n      <created>1666599998507</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1666599998507</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"Facilito\">\r\n      <created>1667648117189</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1667648117189</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"Se vinieron cositas\">\r\n      <created>1668615476907</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668615476907</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"Se vinieron cositas\">\r\n      <created>1668620418338</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668620418338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"midecimal collons\">\r\n      <created>1668705739466</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1668705739466</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"diamante por fin\">\r\n      <created>1669466224302</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669466224302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"cumminacci\">\r\n      <created>1669467647525</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669467647525</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"empezamos ultimas cosas\">\r\n      <created>1669481022911</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669481022911</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"rematamos ultimas cosas\">\r\n      <created>1669563336430</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669563336430</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"rematamos ultimas cosas\">\r\n      <created>1669571651883</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669571651883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"rematamos ultimas cosas y EMPEZAMOS EXAMEN\">\r\n      <created>1669675254621</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669675254621</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"Examen cosas\">\r\n      <created>1669751844932</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669751844932</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"Examen cosas\">\r\n      <created>1669761824649</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669761824649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"RISK PASOS\">\r\n      <created>1670110357472</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670110357473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"RISK PASOS\">\r\n      <created>1670190772489</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670190772489</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"44\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"SWITCH READY\" />\r\n    <MESSAGE value=\"Cambios ojito\" />\r\n    <MESSAGE value=\"TODOS LOS CAMBIOS\" />\r\n    <MESSAGE value=\"TESTS\" />\r\n    <MESSAGE value=\"listas\" />\r\n    <MESSAGE value=\"ole\" />\r\n    <MESSAGE value=\"ole1\" />\r\n    <MESSAGE value=\"Campo de concentracion Actualizado\" />\r\n    <MESSAGE value=\"Campo de concentracion Funcional\" />\r\n    <MESSAGE value=\"SOLUCION PROBLEMA BORRADO\" />\r\n    <MESSAGE value=\"Blackjack terminado!!!!!!111!11\" />\r\n    <MESSAGE value=\"Arreglado bug dinero infinito\" />\r\n    <MESSAGE value=\"Arreglado bug croupier invencible\" />\r\n    <MESSAGE value=\"Mejor croupier y bug dinero retrasado\" />\r\n    <MESSAGE value=\"Poker reparto de cartas\" />\r\n    <MESSAGE value=\"Facilito\" />\r\n    <MESSAGE value=\"Se vinieron cositas\" />\r\n    <MESSAGE value=\"midecimal collons\" />\r\n    <MESSAGE value=\"diamante por fin\" />\r\n    <MESSAGE value=\"cumminacci\" />\r\n    <MESSAGE value=\"empezamos ultimas cosas\" />\r\n    <MESSAGE value=\"rematamos ultimas cosas\" />\r\n    <MESSAGE value=\"rematamos ultimas cosas y EMPEZAMOS EXAMEN\" />\r\n    <MESSAGE value=\"Examen cosas\" />\r\n    <MESSAGE value=\"RISK PASOS\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"RISK PASOS\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/TimeLapse.java</url>\r\n          <line>21</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a85a234898404cdc9f3f0fbb62c64065e11a092a)
++++ b/.idea/workspace.xml	(date 1679225548571)
+@@ -4,14 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="RISK PASOS">
+-      <change afterPath="$PROJECT_DIR$/src/ClaseCD/Factura.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/FacturaTest/FacturaTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/cositas/ArbolBinario.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/tareaproclase/LetrasGordas.java" afterDir="false" />
++    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="uwu">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/JAVA_MACRO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_MACRO.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/cositas/Traballo.java" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/prog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prog.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -68,7 +62,7 @@
+       <recent name="" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ArbolBinario">
++  <component name="RunManager" selected="Application.prog">
+     <configuration name="ArbolBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="cositas.ArbolBinario" />
+       <module name="JAVA_MACRO" />
+@@ -108,21 +102,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="UDP.UDPServer" />
++    <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="owo" />
+       <module name="JAVA_MACRO" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="UDP.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="owo" type="Application" factoryName="Application" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="owo" />
++    <configuration name="prog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="prog" />
+       <module name="JAVA_MACRO" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -144,20 +132,20 @@
+       </method>
+     </configuration>
+     <list>
+-      <item itemvalue="Application.owo" />
+       <item itemvalue="Application.ArbolBinario" />
+       <item itemvalue="Application.Factura" />
+       <item itemvalue="Application.UDPClient" />
+-      <item itemvalue="Application.UDPServer" />
++      <item itemvalue="Application.owo" />
++      <item itemvalue="Application.prog" />
+       <item itemvalue="JUnit.FacturaTest" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.prog" />
+         <item itemvalue="Application.ArbolBinario" />
+         <item itemvalue="JUnit.FacturaTest" />
+         <item itemvalue="Application.Factura" />
+         <item itemvalue="Application.UDPClient" />
+-        <item itemvalue="Application.UDPServer" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -471,7 +459,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670190772489</updated>
+     </task>
+-    <option name="localTasksCounter" value="44" />
++    <task id="LOCAL-00044" summary="uwu">
++      <created>1676051555077</created>
++      <option name="number" value="00044" />
++      <option name="presentableId" value="LOCAL-00044" />
++      <option name="project" value="LOCAL" />
++      <updated>1676051555077</updated>
++    </task>
++    <option name="localTasksCounter" value="45" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -486,7 +481,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="SWITCH READY" />
+     <MESSAGE value="Cambios ojito" />
+     <MESSAGE value="TODOS LOS CAMBIOS" />
+     <MESSAGE value="TESTS" />
+@@ -511,7 +505,8 @@
+     <MESSAGE value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
+     <MESSAGE value="Examen cosas" />
+     <MESSAGE value="RISK PASOS" />
+-    <option name="LAST_COMMIT_MESSAGE" value="RISK PASOS" />
++    <MESSAGE value="uwu" />
++    <option name="LAST_COMMIT_MESSAGE" value="uwu" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
