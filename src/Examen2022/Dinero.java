@@ -1,3 +1,5 @@
+package Examen2022;
+
 abstract class Dinero {
     String pais;
     int dinero;
