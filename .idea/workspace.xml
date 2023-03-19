@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="clase cosas">
+    <list default="true" id="b1b26bee-4ec3-4aea-85c4-c0b776a1b07b" name="Changes" comment="RISK PASOS">
+      <change afterPath="$PROJECT_DIR$/src/Dinero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_02_2023_09_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_02_2023_09_01__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FacturaTest/FacturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FacturaTest/FacturaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDP/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UDP/UDPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trim_2/eje0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trim_2/eje0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prog.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +52,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/Programacion/intellijcosas/JAVA_MACRO&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,13 +64,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.prog">
-    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UDP.UDPClient" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="ArbolBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cositas.ArbolBinario" />
       <module name="JAVA_MACRO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UDP.*" />
+          <option name="PATTERN" value="cositas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,28 +78,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UDP.UDPServer" />
+    <configuration name="Dinero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dinero" />
       <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UDP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eje0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trim_2.eje0" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
       <module name="JAVA_MACRO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trim_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacturaTest.testTarifaInferiorA300" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FacturaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA_MACRO" />
       <extension name="coverage">
         <pattern>
@@ -129,27 +116,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="FacturaTest" />
       <option name="MAIN_CLASS_NAME" value="FacturaTest.FacturaTest" />
-      <option name="METHOD_NAME" value="testTarifaInferiorA300" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UDPClient" />
-      <item itemvalue="Application.UDPServer" />
-      <item itemvalue="Application.eje0" />
       <item itemvalue="Application.owo" />
+      <item itemvalue="Application.Dinero" />
+      <item itemvalue="Application.main" />
       <item itemvalue="Application.prog" />
-      <item itemvalue="JUnit.FacturaTest.testTarifaInferiorA300" />
+      <item itemvalue="Application.ArbolBinario" />
+      <item itemvalue="JUnit.FacturaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Dinero" />
         <item itemvalue="Application.prog" />
-        <item itemvalue="Application.UDPClient" />
-        <item itemvalue="Application.UDPServer" />
-        <item itemvalue="JUnit.FacturaTest.testTarifaInferiorA300" />
-        <item itemvalue="Application.eje0" />
+        <item itemvalue="Application.ArbolBinario" />
+        <item itemvalue="JUnit.FacturaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +414,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669571651883</updated>
     </task>
-    <task id="LOCAL-00039" summary="clase cosas">
-      <created>1673856833150</created>
+    <task id="LOCAL-00039" summary="rematamos ultimas cosas y EMPEZAMOS EXAMEN">
+      <created>1669675254621</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1673856833150</updated>
+      <updated>1669675254621</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Examen cosas">
+      <created>1669751844932</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669751844932</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Examen cosas">
+      <created>1669761824649</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669761824649</updated>
+    </task>
+    <task id="LOCAL-00042" summary="RISK PASOS">
+      <created>1670110357472</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1670110357473</updated>
+    </task>
+    <task id="LOCAL-00043" summary="RISK PASOS">
+      <created>1670190772489</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190772489</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,8 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maineamos" />
-    <MESSAGE value="Preparamos" />
     <MESSAGE value="SWITCH READY" />
     <MESSAGE value="Cambios ojito" />
     <MESSAGE value="TODOS LOS CAMBIOS" />
@@ -474,8 +486,10 @@
     <MESSAGE value="cumminacci" />
     <MESSAGE value="empezamos ultimas cosas" />
     <MESSAGE value="rematamos ultimas cosas" />
-    <MESSAGE value="clase cosas" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase cosas" />
+    <MESSAGE value="rematamos ultimas cosas y EMPEZAMOS EXAMEN" />
+    <MESSAGE value="Examen cosas" />
+    <MESSAGE value="RISK PASOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="RISK PASOS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
