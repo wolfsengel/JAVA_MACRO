@@ -1,5 +1,10 @@
 package Examen2022;
 
+/**
+ *
+ * SIMPLE FACTORY
+ *
+ */
 abstract class Dinero {
     String pais;
     int dinero;
@@ -14,18 +19,14 @@ abstract class Dinero {
 
     public static Dinero getInstance(int Dinero, String pais) {
         switch (pais) {
-            case "España" :
-            case "Portugal" :
-            case "Italia" : {
-                return new Dineroeuropa(Dinero,pais);
+            case "España", "Portugal", "Italia" -> {
+                return new Dineroeuropa(Dinero, pais);
             }
-            default : {
-                return new Dinerootro(Dinero,pais);
+            default -> {
+                return new Dinerootro(Dinero, pais);
             }
         }
     }
-
-
 }
 class main{
     public static void main(String[] args) {

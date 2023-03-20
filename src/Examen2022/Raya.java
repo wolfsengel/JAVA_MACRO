@@ -2,6 +2,11 @@ package Examen2022;
 
 import java.util.Arrays;
 
+/**
+ *
+ *Exceptions
+ *
+ */
 class TresEnRayaException extends Exception {
     public TresEnRayaException(String message) {
         super(message);
